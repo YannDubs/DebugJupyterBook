@@ -30,7 +30,7 @@ $$
 
 
 
-````{note}
+`````{note}
 
 ```{admonition} Hierarchical
 ---
@@ -64,12 +64,11 @@ $$
 
 ```
 
-
-
+````md
 ```{code-cell} ipython3
 print("some very long code cell to show that it has a nice scrollbar. It would be Nice to have the same for latex cells when they are too long.")
 ```
 
-```
+`````
 
-````
+## Code works
