@@ -13,10 +13,7 @@ $$
 
 ## Long Equation in Admonition
 
-```{admonition} Note$\qquad$Some verrrrrry long title spanning multiple lines to test dynamism and multi lines
----
-class: note
----
+```{warning}
 
 $$
 \begin{align}
@@ -33,13 +30,9 @@ $$
 
 
 
-````{admonition} Note$\qquad$Some verrrrrry long title spanning multiple lines to test dynamism and multi lines
----
-class: note
----
+````{note}
 
-
-```{admonition} Warning$\qquad$Some verrrrrry long title spanning multiple lines to test dynamism and multi lines
+```{admonition} Hierarchical
 ---
 class: warning
 ---
@@ -55,7 +48,7 @@ $$
 
 ```
 
-```{admonition} With dropdown$\qquad$Some verrrrrry long title spanning multiple lines to test dynamism and multi lines
+```{admonition} With dropdown
 ---
 class: warning, dropdown
 ---
@@ -68,6 +61,14 @@ $$
 &= 0 + \sum_{c \neq c'}  y^{(c)} w_{\theta} \left( x - x^{(c)} \right)
 \end{align}
 $$
+
+```
+
+
+
+```{code-cell} ipython3
+print("some very long code cell to show that it has a nice scrollbar. It would be Nice to have the same for latex cells when they are too long.")
+```
 
 ```
 
