@@ -55,7 +55,7 @@ $$
 
 ```
 
-```{admonition} Warning$\qquad$With dropdown
+```{admonition} With dropdown$\qquad$Some verrrrrry long title spanning multiple lines to test dynamism and multi lines
 ---
 class: warning, dropdown
 ---
